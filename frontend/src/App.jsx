@@ -1,4 +1,6 @@
 import './App.css'
+import Features from './components/Features'
+import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 
@@ -7,9 +9,11 @@ function App() {
 
   return (
     <>
-    <div className='relative'>
-    <Navbar className='sticky top-0' />
+    <div>
+    <Navbar />
       <Hero />
+      <Features />
+      <Footer />
       </div>
     </>
   )
